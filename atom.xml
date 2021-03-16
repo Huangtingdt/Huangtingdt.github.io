@@ -3,11 +3,11 @@
   <title>Huangの博客</title>
   <icon>https://www.gravatar.com/avatar/354752c6a8a5331f842dbfb264afcdbd</icon>
   <subtitle>Huangの博客</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://huang-t.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://huang-t.top/"/>
   <updated>2021-03-16T05:48:30.538Z</updated>
-  <id>http://example.com/</id>
+  <id>https://huang-t.top/</id>
   
   <author>
     <name>HuangTing</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/03/15/hello-world/"/>
-    <id>http://example.com/2021/03/15/hello-world/</id>
+    <link href="https://huang-t.top/2021/03/15/hello-world/"/>
+    <id>https://huang-t.top/2021/03/15/hello-world/</id>
     <published>2021-03-15T00:00:00.000Z</published>
     <updated>2021-03-16T05:48:30.538Z</updated>
     
@@ -39,10 +39,10 @@
     
     
     
-    <category term="Butterfly" scheme="http://example.com/categories/Butterfly/"/>
+    <category term="Butterfly" scheme="https://huang-t.top/categories/Butterfly/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://huang-t.top/tags/Hexo/"/>
     
   </entry>
   
