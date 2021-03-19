@@ -6,7 +6,7 @@
   <link href="https://huang-t.top/atom.xml" rel="self"/>
   
   <link href="https://huang-t.top/"/>
-  <updated>2021-03-19T05:56:54.556Z</updated>
+  <updated>2021-03-19T15:08:45.202Z</updated>
   <id>https://huang-t.top/</id>
   
   <author>
@@ -17,12 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>C语言概述</title>
+    <title>C语言变量</title>
     <link href="https://huang-t.top/2021/03/19/C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/"/>
     <id>https://huang-t.top/2021/03/19/C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/</id>
     <published>2021-03-19T13:52:31.000Z</published>
-    <updated>2021-03-19T05:56:54.556Z</updated>
+    <updated>2021-03-19T15:08:45.202Z</updated>
     
+    <content type="html"><![CDATA[<h1>C语言变量</h1><h2 id="局部变量">局部变量</h2><p>在函数体内或程序块内声明的变量。</p><p>性质：</p><ol><li>自动存储期限。局部变量的存储单元在函数被调用时分配的，在函数返回时收回。</li><li>块作用域。作用域是可以引用该变量的代码文本部分。局部变量的作用域在程序块中，外部不可访问。</li></ol><h2 id="静态局部变量">静态局部变量</h2><p>使用static声明局部变量使其成为静态局部变量，使用静态存储方式，它具有静态存储期限，而不再是自动存储期限。</p><p>静态变量拥有永久的存储单元，在整个程序的执行期间都会保留。</p><p>静态局部变量的作用域仍是块作用域。</p><h2 id="外部变量">外部变量</h2><p>外部变量声明于函数体外，也叫全局变量。</p><p>性质：</p><ol><li>静态存储期限。如同在函数体内声明的static局部变量，静态存储期限的变量都会永久保留。</li><li>文件作用域。外部变量的作用域为其声明处到文件末尾。</li><li>静态全局变量仅对当前文件可见，其他文件不可访问，其他文件可以定义与其同名的变量，两者互不影响。就是在全局变量前面加上static。</li></ol><h2 id="static关键字作用">static关键字作用</h2><ol><li>隐藏</li><li>保持变量内容的持久</li><li>默认初始化为0</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;C语言变量&lt;/h1&gt;
+&lt;h2 id=&quot;局部变量&quot;&gt;局部变量&lt;/h2&gt;
+&lt;p&gt;在函数体内或程序块内声明的变量。&lt;/p&gt;
+&lt;p&gt;性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自动存储期限。局部变量的存储单元在函数被调用时分配的，在函数返回时收回。&lt;/li&gt;
+&lt;li&gt;块作用域。作用域是可以</summary>
+      
     
     
     
