@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huang-t.top/2021/03/19/C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://huang-t.top/2021/03/15/hello-world/</loc>
     
     <lastmod>2021-03-16</lastmod>
@@ -9,35 +16,7 @@
   </url>
   
   <url>
-    <loc>https://huang-t.top/gallery/marvel/index.html</loc>
-    
-    <lastmod>2021-03-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://huang-t.top/gallery/wallpaper/index.html</loc>
-    
-    <lastmod>2021-03-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://huang-t.top/bangumis/index.html</loc>
-    
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://huang-t.top/gallery/ohmygirl/index.html</loc>
-    
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://huang-t.top/gallery/index.html</loc>
     
     <lastmod>2021-03-15</lastmod>
     
@@ -67,15 +46,29 @@
 
   <url>
     <loc>https://huang-t.top/</loc>
-    <lastmod>2021-03-17</lastmod>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://huang-t.top/tags/C/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huang-t.top/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huang-t.top/tags/Hexo/</loc>
-    <lastmod>2021-03-17</lastmod>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -83,8 +76,15 @@
 
   
   <url>
+    <loc>https://huang-t.top/categories/C%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huang-t.top/categories/Butterfly/</loc>
-    <lastmod>2021-03-17</lastmod>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
