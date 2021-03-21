@@ -1,7 +1,7 @@
 .aplayer.aplayer-fixed.aplayer-narrow 
-  .aplayer-body
+.aplayer-body
     left: -66px !important
-  .aplayer-body:hover
+.aplayer-body:hover
     left: 0px !important
 
 .aplayer.aplayer-fixed .aplayer-lrc {
@@ -16,4 +16,4 @@
     text-shadow: -1px -1px 0 #fff;    //去除阴影
 }
 //颜色大小
-.aplayer .aplayer-lrc p 
+.aplayer .aplayer-lrc p
