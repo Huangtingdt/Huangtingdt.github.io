@@ -178,17 +178,17 @@ template {
 [hidden] {
   display: none
 }
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+.aplayer.aplayer-fixed.aplayer-narrow.aplayer-body {
   left: -66px !important;
   /* 默认情况下缩进左侧66px，只留一点箭头部分 */
 }
 
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+.aplayer.aplayer-fixed.aplayer-narrow.aplayer-body:hover {
   left: 0 !important;
   /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
-.aplayer.aplayer-fixed .aplayer-lrc {
+.aplayer.aplayer-fixed.aplayer-lrc {
     display: block;
     position: fixed;
     bottom: 10px;
@@ -262,22 +262,22 @@ svg.icon {
 
 /* 修改灯笼的字体 */
 
-.d-box .d1::after {
+.d-box.d1::after {
     content: '牛年吉祥';
 }
 
-.d-box1 .d1::after {
+.d-box1.d1::after {
     content: '万事顺利';
 }
 
-.d-box1 .d1,
-.d-box1 .d2,
-.d-box1 .d1::after,
-.d-box1 .d1::before,
-.d-box1 .d2::after,
-.d-box1 .d2::before,
-.d-box1 .d2 ul li span,
-.d-box1 .d1 ul li span {
+.d-box1.d1,
+.d-box1.d2,
+.d-box1.d1::after,
+.d-box1.d1::before,
+.d-box1.d2::after,
+.d-box1.d2::before,
+.d-box1.d2 ul li span,
+.d-box1.d1 ul li span {
     background-color: #f01f1a;
     border: 5px solid #5c1713;
     /* 自定义灯笼的阴影 */
@@ -574,68 +574,6 @@ img {
 ::-webkit-scrollbar-corner {
     background-color: transparent
 }
-
-/* 页脚footer */
-/* 渐变色滚动动画 */
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
- 
-    50% {
-        background-position: 100% 50%;
-    }
- 
-    100% {
-        background-position: 0 50%;
-    }
-}
- 
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
- 
-    50% {
-        background-position: 100% 50%;
-    }
- 
-    100% {
-        background-position: 0 50%;
-    }
-}
- 
-@keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
- 
-    50% {
-        background-position: 100% 50%;
-    }
- 
-    100% {
-        background-position: 0 50%;
-    }
-}
-#footer {
-    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 10s ease infinite;
-    -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite;
-    -o-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-#footer:before {
-    background-color: rgba(0, 0, 0, 0);
-}
-
 
 .limit-one-line,
 #article-container .flink .flink-list > .flink-list-item a .flink-item-name,
