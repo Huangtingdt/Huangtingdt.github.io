@@ -181,11 +181,11 @@
 <h3 id="4-配置cron定时任务">4 配置cron定时任务</h3>
 <h4 id="（1）进入-etc目录下">（1）进入/etc目录下</h4>
 <p>命令行输入crontab -e，界面如下</p>
-<p><img src="/.io//.%5C%E6%88%91%E5%9C%A8%E6%A0%A1%E5%9B%AD%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%5Cimage-20210709173741502.png" alt="image-20210709173741502"></p>
+<p><img src=".%5C%E6%88%91%E5%9C%A8%E6%A0%A1%E5%9B%AD%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%5Cimage-20210709173741502.png" alt="image-20210709173741502"></p>
 <h4 id="（2）设置cron定时任务">（2）设置cron定时任务</h4>
 <p>在最后一行添加如下内容</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># m h  dom mon dow   command</span></span><br><span class="line">5 0     * * *    <span class="built_in">cd</span> ~/wzxy &amp;&amp; sh ./sign.sh</span><br></pre></td></tr></table></figure>
-<p><img src="/.io//.%5C%E6%88%91%E5%9C%A8%E6%A0%A1%E5%9B%AD%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%5Cimage-20210709173929454.png" alt="image-20210709173929454"></p>
+<p><img src=".%5C%E6%88%91%E5%9C%A8%E6%A0%A1%E5%9B%AD%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%5Cimage-20210709173929454.png" alt="image-20210709173929454"></p>
 <p>cron表达式规则可以参考文章：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/yanghj010/p/10875151.html">https://www.cnblogs.com/yanghj010/p/10875151.html</a></p>
 <h4 id="（3）重启cron服务">（3）重启cron服务</h4>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service cron restart</span><br></pre></td></tr></table></figure>
